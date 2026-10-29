@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments and local secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local meeting data and model files
+*.db
+*.sqlite
+*.sqlite3
+recordings/
+models/
+
+# Generated reports, screenshots, and build artifacts
+outputs/
+work/
+build/
+dist/

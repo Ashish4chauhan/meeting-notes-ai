@@ -1,0 +1,7 @@
+# Local meeting transcription uses faster-whisper with CPU int8 as the default.
+# GPU/CUDA is optional and depends on the locally installed NVIDIA drivers/runtime.
+faster-whisper>=1.1,<2.0
+python-docx>=1.1,<2.0
+reportlab>=4.2,<6.0
+
+sounddevice>=0.5,<1.0
